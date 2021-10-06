@@ -21,7 +21,7 @@ h2{
 .overlay-parallaxCurtain{
   height:300px;
   background:rgba(147,140,166,0.5);
-  font-size: 1.0em;
+  font-size: 1rem;
   text-align:center;
   padding: 60px;
 
