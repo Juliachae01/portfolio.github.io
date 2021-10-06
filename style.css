@@ -1,0 +1,413 @@
+
+/* navigation */
+.navbar{
+  background-color: rgb(242, 237, 250);
+}
+.navbar-nav{
+  text-align:center; 
+}
+
+h2{
+  font-size: 1.2em;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  color:rgba(47, 43, 61)
+}
+
+.w-100{
+  padding-top:60px;
+}
+
+/* index */
+.overlay-parallaxCurtain{
+  height:300px;
+  background:rgba(147,140,166,0.5);
+  font-size: 2.8vh;
+  text-align:center;
+  padding: 60px;
+
+}
+
+.parallax01 {
+  /* The image used */
+  background-image: url("image/parallaximage01.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align:center;
+  padding: 80px;
+  color: rgb(63, 45, 104);
+}
+
+.parallax02 {
+  /* The image used */
+background-image: url("image/parallaximage02.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax03 {
+  /* The image used */
+background-image: url("image/parallaximage03.jpg");
+  /* Set a specific height */
+  min-height: 500px; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.card-img-top{
+  border: 2px solid;
+  border-radius: 10px;
+  border-color:rgb(147,140, 166);
+}
+
+  
+/* - footer - */
+
+footer{
+  text-align: center;
+  padding: 30px;
+  background-color:rgb(147,140,166);
+  color: white;
+}
+
+/* - work - */
+.container-fluid{
+  background-color: rgb(242, 237, 250);
+}
+
+.col-xs-4 {
+  text-align: center;
+  border-color:rgb(147,140, 166);
+}
+
+
+/*image text overlay*/
+figure {
+  width: 100%;
+  position: relative;
+}
+
+figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-color: rgb(147,140,166);
+
+} 
+ 
+figure .overlay {
+  position: absolute;
+  border-radius: 10px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  background: rgba(47, 43, 61, 0.7);
+  -webkit-transition: .5s ease;
+      transition: .5s ease;
+}
+
+h4{
+  color: rgb(70, 64, 77);
+  font-size: 1.2em;
+  font-weight: normal;
+  text-align: center;
+
+}
+
+h5{
+color: aliceblue;
+font-weight: bold;
+font-size: 1.1em;
+text-align: center;
+font-family: sans-serif;
+
+}
+
+p{
+color: beige;
+font-size: 0.8em;
+
+}
+
+figure .overlay .description {
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+figure:hover .overlay {
+  display: block;
+  height: 100%;
+  border-radius: 10px;
+}
+.img-responsive{
+  border:1px solid;
+  border-color: rgb(216, 211, 230);
+  border-radius: 10px;
+}
+.img-profil{
+  width:40%;
+  border-radius: 10px;
+}
+.menuTitle{
+  font-size: 1.5em;
+  text-align: center;
+  color:rgb(63, 45, 104);
+}
+
+.button {
+  background-color:rgb(147,140,166);
+  border:none;
+  border-radius:10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:center;
+}
+
+.button:hover {
+  background-color: rgb(71, 62, 94);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+/* contact me - border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm fieldset,
+#fs-frm optgroup,
+#fs-frm label,
+#fs-frm #card-element:disabled {
+  font-family:sans-serif;
+  font-size: 100%;
+  color: inherit;
+  border: none;
+  border-radius: 0;
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+#fs-frm label,
+#fs-frm legend,
+#fs-frm ::placeholder {
+  font-size: 1.0em;
+  margin-bottom: .5rem;
+  padding-top: .2rem;
+  display: flex;
+  align-items: baseline;
+}
+
+/* contact me-border, padding, margin, width */
+#fs-frm input,
+#fs-frm select,
+#fs-frm textarea,
+#fs-frm #card-element {
+  color: rgb(102, 102, 102);
+  background-color:rgb(216, 211, 230);
+  padding: .75em 1rem;
+  margin-bottom: 1.5rem;
+  border-radius: 10px;
+
+}
+#fs-frm input:focus,
+#fs-frm select:focus,
+#fs-frm textarea:focus {
+  background-color: white;
+  outline-style: solid;
+  outline-width: thin;
+  outline-color: rgb(147,140, 166);
+  outline-offset: -1px;
+  border-radius: 10px;
+}
+#fs-frm [type="text"],
+#fs-frm [type="email"] {
+  width: 100%;
+}
+#fs-frm [type="button"],
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  width: auto;
+  cursor: pointer;
+  -webkit-appearance: button;
+  -moz-appearance: button;
+  appearance: button;
+}
+#fs-frm [type="button"]:focus,
+#fs-frm [type="submit"]:focus,
+#fs-frm [type="reset"]:focus {
+  outline: none;
+}
+
+#fs-frm [type="submit"]:hover{
+  background-color: rgb(71, 62, 94);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  border-radius: 10px;
+}
+
+#fs-frm [type="submit"],
+#fs-frm [type="reset"] {
+  margin-bottom: 0;
+}
+#fs-frm select {
+  text-transform: none;
+  border-radius: 10px;
+}
+
+#fs-frm [type="checkbox"] {
+  -webkit-appearance: checkbox;
+  -moz-appearance: checkbox;
+  appearance: checkbox;
+  display: inline-block;
+  width: auto;
+  margin: 0 .5em 0 0 !important;
+}
+
+#fs-frm [type="radio"] {
+  -webkit-appearance: radio;
+  -moz-appearance: radio;
+  appearance: radio;
+}
+
+/* work-detail */
+.buttonBack {
+  background-color:rgb(147,140,166);
+  border:none;
+  border-radius:10px;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 12px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:center;
+}
+
+.buttonBack:hover {
+  background-color: rgb(71, 62, 94);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.btn-primary{
+  background-color:rgb(242, 237, 250);
+  border:none;
+
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:center;
+}
+
+.btn-primary:hover {
+  background-color: rgb(71, 62, 94);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* projekt images - carousel */
+.carousel-inner,img{
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-control-next, .carousel-control-prev {
+    filter: invert(100%);
+}
+
+.buttonChangeImage{
+  background-color:rgb(147,140,166);
+  border:none;
+  border-radius:10px;
+  color: white;
+  padding: 12px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 2px 1px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:center;
+}
+.buttonChangeImage:hover {
+  background-color: rgb(71, 62, 94);
+  color: white;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+/* projekt beskrivning - accordion */
+.accordion-item{
+  background-color:rgb(147,140,166);
+}
+.accordion-header{
+  border: 0.5px;
+}
+.accordion-body{
+  text-align: center;
+}
+.accordion-body-list{
+color: rgb(255,255,255);
+font-family: sans-serif;
+font-size: 1em;
+}
+
+/* project beskrivning */
+h6{
+  font-size: 1em;
+  font-family:sans-serif;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+
+/* breadcrumb - work, projekt, about, contact sidor */
+
+.breadcrumbs {
+  text-decoration: none;
+  color:rgb(63, 45, 104)
+
+}
+.breadcrumbs:hover{
+  color:rgb(133, 89, 204)
+}

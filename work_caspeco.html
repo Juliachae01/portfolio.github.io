@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Julia Chae</title>
+</head>
+
+<body>
+  <div class="container-fluid wrapper">
+    <!-- navigation bar --> 
+    <div class="row header">  
+      <div class="col-md-12 fixed-top"> 
+        <nav class="navbar navbar-expand-lg navbar-light">  
+            <div class="container-fluid">
+             <a class="navbar-brand" href="index.html"><h2>Julia Chae | UX-designer </h2></a>
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+               <span class="navbar-toggler-icon"></span>
+               </button>
+                 <div class="collapse navbar-collapse" id="navbarSupportedContent" class="nav justify-content-end bg-light">
+                  <ul class="navbar-nav ms-auto mb-2 mb-lg-0 justify-content-end">
+                    <li class="nav-item"><a class="nav-link" href="work.html">Work</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="index.html#contactme">Contact me</a></li>
+                   </ul>
+                  </div>   
+             </div>
+            </nav> 
+        </div>
+    <div class="w-100"></div>  
+  <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+    <ol class="breadcrumb">
+      <li class="breadcrumb-item"><a class=breadcrumbs href="index.html">Home</a></li>
+      <li class="breadcrumb-item"><a class=breadcrumbs href="work.html">Work</a></li>
+      <li class="breadcrumb-item active" aria-current="page">Caspeco "Mitt Schema"</li>
+    </ol>
+  </nav>
+    <div class="w-100"></div>
+    <h3 class="menuTitle">UX-project: Caspeco "Mitt Schema"</h3>
+    <h4>Internship 2021</h4>
+  </div>
+
+  <!--change image-->
+  <div class="w-100"></div>
+  <div class="d-flex justify-content-center">
+  <img src="image/Mittschema01.png" id="projectImages" width="200"></div><br>
+  <div class="d-flex justify-content-center">
+  <input type="button" onclick="changeImage()" value="change Image" class="buttonChangeImage">
+  </div>
+
+  <!--accordion-->
+  <div class="w-100"></div>
+  <div class="col-sm-9 mx-auto">
+  <div class="accordion accordion-flush" id="accordionFlushExample">
+
+  <div class="accordion-item">
+    <h3 class="accordion-header" id="flush-headingOne">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+        About Caspeco
+      </button>
+    </h3>
+    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body"> <h6>Caspeco is a fast-growing company, located in Uppsala that offers operating systems including salary, booking, schedule, cash, payment, analysis for the restaurant industry. 
+        Today, they deliver cloud-based digital solutions, both in desktop and mobile applications for restaurateurs and their employees.</h6></div>
+    </div>
+  </div>
+
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingTwo">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+        My Project
+      </button>
+    </h2>
+    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <h5><b>To evaluate and redesign Caspeco's "Mitt Schema" product</b><br><br></h5>
+        <h6>
+          During my internship period, I worked mainly with evaluating and redesigning Caspeco's "Mitt schema" (My schedule in English) product. <br>
+          There are two different types of schedules: <br>
+          The first is "Stora schema" which can create and add work shifts for staff, it is used by the restaurant managers and administrators who have the power to manage staff. <br>
+          The second is called "Mitt schema", where all regular staff can check their work schedule, manage their available working hours and apply for absence. <br>
+          It is used by about 12,000 users while the Stora schema is used by 1,000 people. <br>The problem, however, is that "My Schedule" has not been developed for so many years because Caspeco's close customers are restaurant managers who do not use the mobile app, so they focus more on the Big Schedule. <br>
+           Therefore, my task was to explore user problems, pinpoint pain points and sketch and design solutions.</h6>
+      </div>
+  </div>
+  </div>
+  
+  <div class="accordion-item">
+    <h2 class="accordion-header" id="flush-headingThree">
+      <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+        Design process
+      </button>
+    </h2>
+    <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+      <div class="accordion-body">
+        <h5><b>Design thinking iteration process</b><br></h5>
+        <img src="image/Mittschema_process.png">
+        <h6><br>I iterated the Design thinking process around 4 times. I empathize with users' problems in different ways and sketched ideas and defined MVP and ended up the Lo-fi wireframes, tested it with customers.  And then I identified new problems and sketched again.</h6> 
+        <img src="image/Mittschema_prototyp.png">
+      </div>
+  </div>
+</div>
+
+</div>
+</div>
+<div class="w-100"></div>
+</div>
+  <!-- footer -->
+  <footer>
+    <div class="container">Copyright © Julia Chae 2021</div>
+  </footer>
+
+</body>
+
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
+ <script src="changeimage.js"></script>
+</html>
+
+
+
