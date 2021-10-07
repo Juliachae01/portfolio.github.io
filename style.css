@@ -31,6 +31,7 @@ h2{
 }
 
 .parallax01{
+  position:relative;
   /* bild src*/
   background-image: url("image/parallaximage01.jpg");
   /* heigt av parallax bild */
@@ -46,6 +47,7 @@ h2{
 }
 
 .parallax02 {
+  position:relative;
    /* bild src */
 background-image: url("image/parallaximage02.jpg");
   /* height av parallax bild */
@@ -58,6 +60,7 @@ background-image: url("image/parallaximage02.jpg");
 }
 
 .parallax03 {
+  position:relative;
   /* bild src */
 background-image: url("image/parallaximage03.jpg");
   /* height av parallax bild */
