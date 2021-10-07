@@ -72,11 +72,6 @@ background-image: url("image/parallaximage03.jpg");
   background-size: cover;
 }
 
-.card-img-top{
-  border: 2px solid;
-  border-radius: 10px;
-  border-color:rgb(147,140, 166);
-}
 
   
 /* - footer - */
